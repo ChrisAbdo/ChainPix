@@ -65,7 +65,7 @@ const Navbar = ({ web3Handler, account }) => {
               </ul>
             </div>
 
-            <a class="btn btn-ghost normal-case text-xl">
+            <a href="/" class="btn btn-ghost normal-case text-xl">
               <Image src={logo} width={45} height={45} />
               pixelchain
             </a>

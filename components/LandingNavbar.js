@@ -47,7 +47,10 @@ const LandingNavbar = ({ web3Handler, account }) => {
             </div>
           ) : (
             <div class="navbar-end">
-              <button onClick={web3Handler} className="btn">
+              <button
+                onClick={web3Handler}
+                className="btn btn-info  active:btn btn-outline"
+              >
                 Connect Wallet
               </button>
             </div>
